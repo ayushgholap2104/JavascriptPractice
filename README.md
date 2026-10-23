@@ -1,0 +1,2 @@
+# JavascriptPractice
+Learning javascript deeply
