@@ -23,3 +23,17 @@
 // let employeeId_boolean = Number(employeeId)
 // console.log(typeof employeeId_boolean)
 // console.log(employeeId_boolean)
+
+// Operations
+// console.log(2 + 2)
+// console.log(true + true)
+// console.log(2 * 2)
+// console.log(true + true)
+
+// console.log(2 + "2")
+
+// console.log("2" + 2 + 4)
+// console.log("2" + "5" + 9)
+
+// console.log("2" + "5" * 9)
+
