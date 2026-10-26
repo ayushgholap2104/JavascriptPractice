@@ -1,2 +1,7 @@
-let studName = "Ayush"
-// console.log(typeof studName)
+console.log(null <= 10)
+// console.log(null == 10)
+// console.log(null > 10)
+
+// console.log(null <= 10)
+// console.log(null == 10)
+// console.log(null > 10)
