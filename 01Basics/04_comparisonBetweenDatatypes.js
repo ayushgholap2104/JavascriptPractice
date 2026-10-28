@@ -13,4 +13,6 @@
 // console.log(undefined == 10)
 // console.log(undefined > 10)
 
-console.log("" === 10)
+// console.log("" === 10)
+
+// console.log(undefined == null)

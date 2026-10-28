@@ -37,3 +37,10 @@
 
 // console.log("2" + "5" * 9)
 
+// String to Boolean
+// Converting a String into Number
+let studName = " "
+console.log(typeof studName)
+let studNameInBoolean = Boolean(studName)
+console.log(typeof studNameInBoolean)
+console.log(studNameInBoolean)
