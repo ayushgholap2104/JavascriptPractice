@@ -45,3 +45,31 @@
 
 // console.log(typeof cardsData)
 // console.log(cardsData)
+
+// Heap and Stack Memory
+// Primitive Datatypes use Stack Memory to store data while the Non primitive datatype uses Heap Memory.
+
+// For Premitive
+// let myGmail1 = "ayus2302@gmail.com";
+// console.log(myGmail1)
+
+// let myGmail2 = myGmail1
+// console.log(myGmail2)
+// myGmail2 = "abc2204@gmail.com"
+
+// console.log("My gmail1 is:",myGmail1)
+// console.log("My gmail2 is:",myGmail2)
+
+// For Non primitive
+// let card1 = {
+//   id:1,
+//   name: "Avengers"
+// }
+
+// let card2 = card1
+// console.log(card2)
+
+// card2.name = "DC"
+// console.log("Card 1:",card1)
+// console.log("Card 2",card1)
+
