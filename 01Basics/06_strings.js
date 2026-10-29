@@ -39,3 +39,17 @@ console.log(gameName)
 
 
 // console.log(gameName.includes("Damn"))
+
+// console.log("My name is Ayush\nand I am 19 years old\nI want to become inspirational fullstack developer")
+// console.log(gameName[-1])
+
+// gameName[0] = "I"
+// console.log(gameName)
+
+// console.log(gameName[0].toLowerCase())
+
+// function ucFirst(str){
+//     console.log(str[0].toUpperCase())
+//   }
+  
+// ucFirst("john")
