@@ -23,3 +23,10 @@
 
 // let date = new Date(myTimestamp);
 // console.log(date.toLocaleString())
+
+// let currDate = new Date()
+// console.log(currDate.getTime())
+// console.log(currDate.getMonth() +1)
+// console.log(currDate.getDate())
+// console.log(currDate.getMinutes())
+// console.log(currDate.getDay())
