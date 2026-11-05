@@ -19,18 +19,18 @@ const myArr = [2,1,4,5,6,8]
 // console.log(myArr.includes(5))
 // console.log(myArr.indexOf(5))
 
-// let arrToString = myArr.join()
-// console.log(typeof arrToString);
-// console.log(arrToString);
+let arrToString = myArr.join()
+console.log(typeof arrToString);
+console.log(arrToString);
 
-console.log("A:",myArr)
+// console.log("A:",myArr)
 
-let myArr1 = myArr.slice(1,3)
-console.log(myArr1)
+// let myArr1 = myArr.slice(1,3)
+// console.log(myArr1)
 
-console.log("B:",myArr)
+// console.log("B:",myArr)
 
-let myArr2 = myArr.splice(1,3)
-console.log(myArr2)
+// let myArr2 = myArr.splice(1,3)
+// console.log(myArr2)
 
-console.log("C:",myArr)
+// console.log("C:",myArr)

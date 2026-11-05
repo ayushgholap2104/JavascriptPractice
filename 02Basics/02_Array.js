@@ -31,3 +31,24 @@
 
 // let newArr = Array.of(value1,value2,value3);
 // console.log(newArr)
+
+// const marvelHeros = ["Thor", "Ironman", "Siderman"];
+// marvelHeros.splice(0,2,"Hulk","Shaktiman")
+// console.log(marvelHeros)
+
+// marvelHeros.splice(-1,0,"Thor","Ironman")
+// console.log(marvelHeros)
+
+// let newArr = [2,5,1,7,4]
+// newArr.reverse()
+// console.log(newArr)
+
+// let newArr = [2,5,1,7,14]
+// newArr.sort()
+// console.log(newArr)
+
+let inCity = "Mumbai,Pune,Karad"
+// console.log(inCity)
+
+let cityArr = inCity.split(",")
+console.log(typeof cityArr)
