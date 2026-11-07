@@ -4,9 +4,10 @@ function sayMyName(){
 
 // sayMyName()
 
-// function addTwoNumbers(num1,num2){
-//   console.log(result)
-// }
+function addTwoNumbers(num1,num2){
+  console.log(num1 + num2)
+}
+addTwoNumbers(5,9)
 
 // function addTwoNumbers(num1,num2){
 //   // let result = num1 + num2
@@ -47,10 +48,17 @@ function sayMyName(){
 
 // console.log(handleobject(user))
 
-const myArr = [100,300,200,600]
+// const myArr = [100,300,200,600]
 
-function returnVal(arr){
-  return `The element on 2nd position is ${arr[1]}`
+// function returnVal(arr){
+//   return `The element on 2nd position is ${arr[1]}`
+// }
+
+// console.log(returnVal(myArr))
+
+function helloMsg(){
+  let content = "Hello User thanks for choosing us"
+  console.log(content)
 }
 
-console.log(returnVal(myArr))
+helloMsg()
