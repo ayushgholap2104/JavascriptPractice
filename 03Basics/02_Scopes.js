@@ -28,13 +28,26 @@
 // one()
 
 // Conditional Statements
-if(true){
-  const userName = "Ayush"
-  if(userName === "Ayush"){
-    const website = "Aurora"
-    console.log(userName +" "+ website)
-  }
-  // console.log(website)
-}
+// if(true){
+//   const userName = "Ayush"
+//   if(userName === "Ayush"){
+//     const website = "Aurora"
+//     console.log(userName +" "+ website)
+//   }
+//   console.log(website)
+// }
 
 // console.log(userName)
+
+// --------- Interesting -------
+// Hoisting
+// console.log(addOne(5))
+// function addOne(num){
+//   return num + 1
+// }
+
+
+console.log(addTwo(5))
+let addTwo = function(num){
+  return num + 2
+}
