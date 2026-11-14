@@ -6,9 +6,9 @@ const user = {
   }
 }
 // user.username = "Alia"
-// user.welcomeMessage()
+user.welcomeMessage()
 
-// console.log(this)
+console.log(this)
 
 // function chai(){
 //   const username = "Ayush"
