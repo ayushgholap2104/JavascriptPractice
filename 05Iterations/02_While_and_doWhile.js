@@ -11,8 +11,8 @@
 //   i = i + 1
 // }
 
-let num = 20
-do{
-  console.log(`The value of num is ${num}`)
-  num = num + 1
-} while (num <= 10)
+// let num = 20
+// do{
+//   console.log(`The value of num is ${num}`)
+//   num = num + 1
+// } while (num <= 10)
