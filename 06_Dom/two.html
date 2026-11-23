@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM | Ayush js practice</title>
+  <style>
+    
+  </style>
+</head>
+<body style="background-color: rgb(57, 57, 57); color: #fff;">
+  <div class="parent">
+    <!-- This is a comment -->
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+  </div>
+</body>
+<script>
+  const container = document.querySelector('.parent')
+  // console.log(container)
+  // console.log(container.children)
+  // console.log(container.children[0].innerHTML)
+
+  // for (let index = 0; index < container.children.length; index++) {
+  //   console.log(`The week days are ${container.children[index].innerHTML}`);
+  // }
+  // container.children[1].style.color = "orange"
+  // console.log(container.firstElementChild.innerHTML)
+  // console.log(container.lastElementChild.innerHTML)
+
+  // const day = document.querySelector('.day')
+  // console.log(day)
+  // console.log(day.parentElement)
+  // console.log(day.nextElementSibling.innerHTML)
+  console.log(container.childNodes)
+  
+</script>
+</html>

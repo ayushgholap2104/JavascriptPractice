@@ -1,4 +1,4 @@
-let nums = [2,3,4,5]
+let nums = [2, 3, 4, 5]
 
 // let totalNums = nums.reduce((acc,currVal) => {
 //   return acc + currVal
@@ -39,8 +39,19 @@ let nums = [2,3,4,5]
 // console.log(`Total shopping price is: ${totalPrice}`)
 
 
+const myObj = {
+  myfunc1: function () {
+    console.log(item)
+    return myObj
+  },
+  myfunc2: function (item) {
+    console.log(item)
+    return item
+  }
 
-
+}
+myObj.myfunc1("Hello")
+  .myfunc2("Ayush")
 
 
 

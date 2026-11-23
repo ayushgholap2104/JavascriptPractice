@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Study</title>
+  </head>
+  <body style="background-color: #111111; color: #fff">
+    <ul class="languages">
+      <li>Javascript</li>
+    </ul>
+  </body>
+  <script>
+    function addList(langName) {
+      const languages = document.querySelector(".languages");
+      const list = document.createElement("li");
+      list.innerHTML = `${langName}`;
+      languages.appendChild(list);
+    }
+    addList("Python")
+    addList("Java")
+    addList("R")
+
+    function addListOptimize(langName) {
+      const languages = document.querySelector(".languages");
+      const list = document.createElement("li");
+      list.appendChild(document.createTextNode(langName))
+      languages.appendChild(list);
+    }
+    addListOptimize("SQL")
+
+    // Edit
+    const langUpdate = document.querySelector('li:nth-child(2)')
+    console.log(langUpdate)
+    const newli = document.createElement('li')
+    newli.textContent = "Mongodb"
+    langUpdate.replaceWith(newli)
+  </script>
+</html>
